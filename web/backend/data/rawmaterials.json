@@ -1,158 +1,242 @@
 [
     {
-        "Id": 1,
-        "Name": "Recycled Paper",
-        "Source": "Local",
-        "EcoFriendly": true
+        "id": 1,
+        "name": "Recycled Paper",
+        "source": "Local",
+        "ecoFriendly": true
     },
     {
-        "Id": 2,
-        "Name": "Organic Cotton",
-        "Source": "Global",
-        "EcoFriendly": true
+        "id": 2,
+        "name": "Organic Cotton",
+        "source": "Global",
+        "ecoFriendly": true
     },
     {
-        "Id": 3,
-        "Name": "Bamboo",
-        "Source": "Global",
-        "EcoFriendly": true
+        "id": 3,
+        "name": "Bamboo",
+        "source": "Global",
+        "ecoFriendly": true
     },
     {
-        "Id": 4,
-        "Name": "Solar Panels",
-        "Source": "Global",
-        "EcoFriendly": true
+        "id": 4,
+        "name": "Solar Panels",
+        "source": "Global",
+        "ecoFriendly": true
     },
     {
-        "Id": 5,
-        "Name": "Recycled Glass",
-        "Source": "Local",
-        "EcoFriendly": true
+        "id": 5,
+        "name": "Recycled Glass",
+        "source": "Local",
+        "ecoFriendly": true
     },
     {
-        "Id": 6,
-        "Name": "Upcycled Denim",
-        "Source": "Local",
-        "EcoFriendly": true
+        "id": 6,
+        "name": "Upcycled Denim",
+        "source": "Local",
+        "ecoFriendly": true
     },
     {
-        "Id": 7,
-        "Name": "Organic Fruits",
-        "Source": "Local",
-        "EcoFriendly": true
+        "id": 7,
+        "name": "Organic Fruits",
+        "source": "Local",
+        "ecoFriendly": true
     },
     {
-        "Id": 8,
-        "Name": "Biodegradable Fabric",
-        "Source": "Global",
-        "EcoFriendly": true
+        "id": 8,
+        "name": "Biodegradable Fabric",
+        "source": "Global",
+        "ecoFriendly": true
     },
     {
-        "Id": 9,
-        "Name": "Sustainably Sourced Wood",
-        "Source": "Local",
-        "EcoFriendly": true
+        "id": 9,
+        "name": "Sustainably Sourced Wood",
+        "source": "Local",
+        "ecoFriendly": true
     },
     {
-        "Id": 10,
-        "Name": "Recycled Plastic Bottles",
-        "Source": "Local",
-        "EcoFriendly": true
+        "id": 10,
+        "name": "Recycled Plastic Bottles",
+        "source": "Local",
+        "ecoFriendly": true
     },
     {
-        "Id": 11,
-        "Name": "Coffee Beans",
-        "Source": "Global",
-        "EcoFriendly": true
+        "id": 11,
+        "name": "Coffee Beans",
+        "source": "Global",
+        "ecoFriendly": true
     },
     {
-        "Id": 12,
-        "Name": "Beeswax",
-        "Source": "Local",
-        "EcoFriendly": true
+        "id": 12,
+        "name": "Beeswax",
+        "source": "Local",
+        "ecoFriendly": true
     },
     {
-        "Id": 13,
-        "Name": "Steel Structure",
-        "Source": "Global",
-        "EcoFriendly": true
+        "id": 13,
+        "name": "Steel Structure",
+        "source": "Global",
+        "ecoFriendly": true
     },
     {
-        "Id": 14,
-        "Name": "Recycled PET Bottles",
-        "Source": "Local",
-        "EcoFriendly": true
+        "id": 14,
+        "name": "Recycled PET Bottles",
+        "source": "Local",
+        "ecoFriendly": true
     },
     {
-        "Id": 15,
-        "Name": "Natural Rubber",
-        "Source": "Global",
-        "EcoFriendly": true
+        "id": 15,
+        "name": "Natural Rubber",
+        "source": "Global",
+        "ecoFriendly": true
     },
     {
-        "Id": 16,
-        "Name": "Solar Panels",
-        "Source": "Global",
-        "EcoFriendly": true
+        "id": 16,
+        "name": "Solar Panels",
+        "source": "Global",
+        "ecoFriendly": true
     },
     {
-        "Id": 17,
-        "Name": "Organic Herbs",
-        "Source": "Local",
-        "EcoFriendly": true
+        "id": 17,
+        "name": "Organic Herbs",
+        "source": "Local",
+        "ecoFriendly": true
     },
     {
-        "Id": 18,
-        "Name": "Recycled Plastic",
-        "Source": "Local",
-        "EcoFriendly": true
+        "id": 18,
+        "name": "Recycled Plastic",
+        "source": "Local",
+        "ecoFriendly": true
     },
     {
-        "Id": 19,
-        "Name": "Cocoa Beans",
-        "Source": "Global",
-        "EcoFriendly": true
+        "id": 19,
+        "name": "Cocoa Beans",
+        "source": "Global",
+        "ecoFriendly": true
     },
     {
-        "Id": 20,
-        "Name": "Stainless Steel",
-        "Source": "Global",
-        "EcoFriendly": true
+        "id": 20,
+        "name": "Stainless Steel",
+        "source": "Global",
+        "ecoFriendly": true
     },
     {
-        "Id": 21,
-        "Name": "Aluminum Housing",
-        "Source": "Global",
-        "EcoFriendly": true
+        "id": 21,
+        "name": "Aluminum Housing",
+        "source": "Global",
+        "ecoFriendly": true
     },
     {
-        "Id": 22,
-        "Name": "Biodegradable Plant-Based PLA",
-        "Source": "Local",
-        "EcoFriendly": true
+        "id": 22,
+        "name": "Biodegradable Plant-Based PLA",
+        "source": "Local",
+        "ecoFriendly": true
     },
     {
-        "Id": 23,
-        "Name": "Recycled Cardboard",
-        "Source": "Local",
-        "EcoFriendly": true
+        "id": 23,
+        "name": "Recycled Cardboard",
+        "source": "Local",
+        "ecoFriendly": true
     },
     {
-        "Id": 24,
-        "Name": "Organic Cotton",
-        "Source": "Global",
-        "EcoFriendly": true
+        "id": 24,
+        "name": "Cotton Fabric",
+        "source": "Global",
+        "ecoFriendly": true
     },
     {
-        "Id": 25,
-        "Name": "Organic Honey",
-        "Source": "Global",
-        "EcoFriendly": true
+        "id": 25,
+        "name": "Organic Honey",
+        "source": "Global",
+        "ecoFriendly": true
     },
     {
-        "Id": 26,
-        "Name": "Bamboo",
-        "Source": "Global",
-        "EcoFriendly": true
+        "id": 26,
+        "name": "Bamboo",
+        "source": "Global",
+        "ecoFriendly": true
+    },
+    {
+        "id": 27,
+        "name": "Plastic Housing",
+        "source": "Global",
+        "ecoFriendly": false
+    },
+    {
+        "id": 28,
+        "name": "Metal Lid",
+        "source": "Global",
+        "ecoFriendly": false
+    },
+    {
+        "id": 29,
+        "name": "Wicker Basket",
+        "source": "Global",
+        "ecoFriendly": false
+    },
+    {
+        "id": 30,
+        "name": "Natural Cleaning Solution",
+        "source": "Global",
+        "ecoFriendly": false
+    },
+    {
+        "id": 31,
+        "name": "Plastic Casing",
+        "source": "Global",
+        "ecoFriendly": false
+    },
+    {
+        "id": 32,
+        "name": "Nylon Straps",
+        "source": "Global",
+        "ecoFriendly": false
+    },
+    {
+        "id": 33,
+        "name": "Electric Components",
+        "source": "Global",
+        "ecoFriendly": false
+    },
+    {
+        "id": 34,
+        "name": "Metal Frame",
+        "source": "Global",
+        "ecoFriendly": false
+    },
+    {
+        "id": 35,
+        "name": "Water Filtration System",
+        "source": "Global",
+        "ecoFriendly": false
+    },
+    {
+        "id": 36,
+        "name": "Recycled Aluminum",
+        "source": "Global",
+        "ecoFriendly": false
+    },
+    {
+        "id": 37,
+        "name": "Screw Cap",
+        "source": "Global",
+        "ecoFriendly": false
+    },
+    {
+        "id": 38,
+        "name": "Eco-Friendly PVC",
+        "source": "Global",
+        "ecoFriendly": false
+    },
+    {
+        "id": 39,
+        "name": "Metal Casing",
+        "source": "Global",
+        "ecoFriendly": false
+    },
+    {
+        "id": 40,
+        "name": "Nylon Fabric",
+        "source": "Global",
+        "ecoFriendly": false
     }
 ]
