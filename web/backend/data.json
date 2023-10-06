@@ -1,0 +1,534 @@
+[
+    {
+        "Name": "Recycled Paper Notebook",
+        "Description": "A notebook made from 100% recycled paper, perfect for eco-conscious note-taking.",
+        "RawMaterials": [
+            {
+                "Material": "Recycled Paper",
+                "Percentage": "100%"
+            }
+        ],
+        "Company": "Green Eco Products Inc.",
+        "Price": 12.99,
+        "Type": "Stationery",
+        "ManufacturingProcess": "Low-energy consumption",
+        "Transportation": "Shipped locally",
+        "EnergyEfficiency": true,
+        "WaterUsage": "Low",
+        "CarbonEmissions": "High"
+    },
+    {
+        "Name": "Organic Cotton T-Shirt",
+        "Description": "A comfortable t-shirt made from organic cotton, free from harmful chemicals.",
+        "RawMaterials": [
+            {
+                "Material": "Organic Cotton",
+                "Percentage": "100%"
+            }
+        ],
+        "Company": "Pure Wearables Co.",
+        "Price": 19.99,
+        "Type": "Apparel",
+        "ManufacturingProcess": "Low-energy consumption",
+        "Transportation": "Shipped locally",
+        "EnergyEfficiency": false,
+        "WaterUsage": "High",
+        "CarbonEmissions": "Low"
+    },
+    {
+        "Name": "Bamboo Toothbrush",
+        "Description": "An eco-friendly toothbrush made from sustainable bamboo, reducing plastic waste.",
+        "RawMaterials": [
+            {
+                "Material": "Bamboo",
+                "Percentage": "100%"
+            }
+        ],
+        "Company": "GreenSmiles Ltd.",
+        "Price": 4.49,
+        "Type": "Personal Care",
+        "ManufacturingProcess": "Low-energy consumption",
+        "Transportation": "Shipped globally",
+        "EnergyEfficiency": true,
+        "WaterUsage": "Low",
+        "CarbonEmissions": "Low"
+    },
+    {
+        "Name": "Solar-Powered LED Lamp",
+        "Description": "A portable lamp powered by solar energy, great for outdoor adventures and emergencies.",
+        "RawMaterials": [
+            {
+                "Material": "Solar Panels",
+                "Percentage": "70%"
+            },
+            {
+                "Material": "Plastic Housing",
+                "Percentage": "30%"
+            }
+        ],
+        "Company": "Sunshine Tech Solutions",
+        "Price": 29.99,
+        "Type": "Home & Outdoor",
+        "ManufacturingProcess": "High-energy consumption",
+        "Transportation": "Shipped locally",
+        "EnergyEfficiency": false,
+        "WaterUsage": "High",
+        "CarbonEmissions": "High"
+    },
+    {
+        "Name": "Recycled Glass Water Bottle",
+        "Description": "A reusable water bottle made from recycled glass, reducing single-use plastic waste.",
+        "RawMaterials": [
+            {
+                "Material": "Recycled Glass",
+                "Percentage": "80%"
+            },
+            {
+                "Material": "Metal Lid",
+                "Percentage": "20%"
+            }
+        ],
+        "Company": "EcoHydrate Inc.",
+        "Price": 14.95,
+        "Type": "Kitchen & Dining",
+        "ManufacturingProcess": "Low-energy consumption",
+        "Transportation": "Shipped locally",
+        "EnergyEfficiency": true,
+        "WaterUsage": "High",
+        "CarbonEmissions": "Low"
+    },
+    {
+        "Name": "Upcycled Denim Jeans",
+        "Description": "Fashionable jeans made from upcycled denim, giving old denim a new life.",
+        "RawMaterials": [
+            {
+                "Material": "Upcycled Denim",
+                "Percentage": "100%"
+            }
+        ],
+        "Company": "Revive Denim Co.",
+        "Price": 49.99,
+        "Type": "Apparel",
+        "ManufacturingProcess": "Low-energy consumption",
+        "Transportation": "Shipped locally",
+        "EnergyEfficiency": false,
+        "WaterUsage": "Low",
+        "CarbonEmissions": "High"
+    },
+    {
+        "Name": "Organic Fruit Basket",
+        "Description": "A fresh fruit basket with organically grown fruits, free from pesticides.",
+        "RawMaterials": [
+            {
+                "Material": "Organic Fruits",
+                "Percentage": "90%"
+            },
+            {
+                "Material": "Wicker Basket",
+                "Percentage": "10%"
+            }
+        ],
+        "Company": "Green Harvest Farms",
+        "Price": 34.99,
+        "Type": "Food & Beverage",
+        "ManufacturingProcess": "Low-energy consumption",
+        "Transportation": "Shipped locally",
+        "EnergyEfficiency": true,
+        "WaterUsage": "Low",
+        "CarbonEmissions": "Low"
+    },
+    {
+        "Name": "Biodegradable Cleaning Wipes",
+        "Description": "Cleaning wipes made from biodegradable materials, eco-friendly and safe for the environment.",
+        "RawMaterials": [
+            {
+                "Material": "Biodegradable Fabric",
+                "Percentage": "70%"
+            },
+            {
+                "Material": "Natural Cleaning Solution",
+                "Percentage": "30%"
+            }
+        ],
+        "Company": "Clean Earth Products",
+        "Price": 7.99,
+        "Type": "Household Supplies",
+        "ManufacturingProcess": "Low-energy consumption",
+        "Transportation": "Shipped locally",
+        "EnergyEfficiency": true,
+        "WaterUsage": "Low",
+        "CarbonEmissions": "Low"
+    },
+    {
+        "Name": "Sustainable Wooden Chair",
+        "Description": "A stylish and sturdy wooden chair made from sustainably sourced wood.",
+        "RawMaterials": [
+            {
+                "Material": "Sustainably Sourced Wood",
+                "Percentage": "100%"
+            }
+        ],
+        "Company": "Woodcraft Creations",
+        "Price": 79.99,
+        "Type": "Furniture",
+        "ManufacturingProcess": "Low-energy consumption",
+        "Transportation": "Shipped locally",
+        "EnergyEfficiency": true,
+        "WaterUsage": "Low",
+        "CarbonEmissions": "High"
+    },
+    {
+        "Name": "Solar-Powered Smartphone Charger",
+        "Description": "A portable smartphone charger powered by solar energy, great for on-the-go charging.",
+        "RawMaterials": [
+            {
+                "Material": "Solar Panels",
+                "Percentage": "60%"
+            },
+            {
+                "Material": "Plastic Casing",
+                "Percentage": "40%"
+            }
+        ],
+        "Company": "SunCharge Technologies",
+        "Price": 24.99,
+        "Type": "Electronics",
+        "ManufacturingProcess": "High-energy consumption",
+        "Transportation": "Shipped globally",
+        "EnergyEfficiency": false,
+        "WaterUsage": "Low",
+        "CarbonEmissions": "High"
+    },
+    {
+        "Name": "Recycled Plastic Backpack",
+        "Description": "A durable backpack made from recycled plastic bottles, reducing plastic waste in landfills.",
+        "RawMaterials": [
+            {
+                "Material": "Recycled Plastic Bottles",
+                "Percentage": "70%"
+            },
+            {
+                "Material": "Nylon Straps",
+                "Percentage": "30%"
+            }
+        ],
+        "Company": "EcoPack Gear",
+        "Price": 39.99,
+        "Type": "Bags & Luggage",
+        "ManufacturingProcess": "Low-energy consumption",
+        "Transportation": "Shipped locally",
+        "EnergyEfficiency": true,
+        "WaterUsage": "Low",
+        "CarbonEmissions": "High"
+    },
+    {
+        "Name": "Fair Trade Coffee Beans",
+        "Description": "Premium coffee beans sourced from fair trade cooperatives, supporting local farmers.",
+        "RawMaterials": [
+            {
+                "Material": "Coffee Beans",
+                "Percentage": "100%"
+            }
+        ],
+        "Company": "Ethical Brews Co.",
+        "Price": 9.99,
+        "Type": "Food & Beverage",
+        "ManufacturingProcess": "Low-energy consumption",
+        "Transportation": "Shipped locally",
+        "EnergyEfficiency": true,
+        "WaterUsage": "Low",
+        "CarbonEmissions": "Low"
+    },
+    {
+        "Name": "Reusable Beeswax Food Wraps",
+        "Description": "Eco-friendly food wraps made from beeswax-infused fabric, replacing disposable plastic wraps.",
+        "RawMaterials": [
+            {
+                "Material": "Beeswax",
+                "Percentage": "70%"
+            },
+            {
+                "Material": "Cotton Fabric",
+                "Percentage": "30%"
+            }
+        ],
+        "Company": "BeeGreen Products",
+        "Price": 8.49,
+        "Type": "Kitchen & Dining",
+        "ManufacturingProcess": "Low-energy consumption",
+        "Transportation": "Shipped locally",
+        "EnergyEfficiency": true,
+        "WaterUsage": "Low",
+        "CarbonEmissions": "Low"
+    },
+    {
+        "Name": "Electric Car Charging Station",
+        "Description": "A charging station for electric vehicles powered by renewable energy sources.",
+        "RawMaterials": [
+            {
+                "Material": "Steel Structure",
+                "Percentage": "60%"
+            },
+            {
+                "Material": "Electric Components",
+                "Percentage": "40%"
+            }
+        ],
+        "Company": "GreenCharge Systems",
+        "Price": 499.99,
+        "Type": "Automotive",
+        "ManufacturingProcess": "Low-energy consumption",
+        "Transportation": "Shipped locally",
+        "EnergyEfficiency": true,
+        "WaterUsage": "High",
+        "CarbonEmissions": "Low"
+    },
+    {
+        "Name": "Recycled Plastic Outdoor Furniture Set",
+        "Description": "Outdoor furniture set made from recycled plastic, durable and weather-resistant.",
+        "RawMaterials": [
+            {
+                "Material": "Recycled Plastic",
+                "Percentage": "80%"
+            },
+            {
+                "Material": "Metal Frame",
+                "Percentage": "20%"
+            }
+        ],
+        "Company": "EcoFurniture Designs",
+        "Price": 299.99,
+        "Type": "Furniture",
+        "ManufacturingProcess": "Low-energy consumption",
+        "Transportation": "Shipped locally",
+        "EnergyEfficiency": true,
+        "WaterUsage": "Low",
+        "CarbonEmissions": "High"
+    },
+    {
+        "Name": "Solar-Powered Water Purifier",
+        "Description": "A water purifier that uses solar energy to provide clean and safe drinking water.",
+        "RawMaterials": [
+            {
+                "Material": "Solar Panels",
+                "Percentage": "40%"
+            },
+            {
+                "Material": "Water Filtration System",
+                "Percentage": "60%"
+            }
+        ],
+        "Company": "CleanWater Tech",
+        "Price": 129.99,
+        "Type": "Home & Outdoor",
+        "ManufacturingProcess": "High-energy consumption",
+        "Transportation": "Shipped globally",
+        "EnergyEfficiency": false,
+        "WaterUsage": "High",
+        "CarbonEmissions": "High"
+    },
+    {
+        "Name": "Recycled Aluminum Water Bottle",
+        "Description": "A reusable water bottle made from recycled aluminum, reducing environmental impact.",
+        "RawMaterials": [
+            {
+                "Material": "Recycled Aluminum",
+                "Percentage": "90%"
+            },
+            {
+                "Material": "Screw Cap",
+                "Percentage": "10%"
+            }
+        ],
+        "Company": "AluGreen Products",
+        "Price": 19.99,
+        "Type": "Kitchen & Dining",
+        "ManufacturingProcess": "Low-energy consumption",
+        "Transportation": "Shipped locally",
+        "EnergyEfficiency": true,
+        "WaterUsage": "Low",
+        "CarbonEmissions": "High"
+    },
+    {
+        "Name": "Eco-Friendly Yoga Mat",
+        "Description": "A non-toxic yoga mat made from eco-friendly materials, perfect for yoga enthusiasts.",
+        "RawMaterials": [
+            {
+                "Material": "Natural Rubber",
+                "Percentage": "70%"
+            },
+            {
+                "Material": "Eco-Friendly PVC",
+                "Percentage": "30%"
+            }
+        ],
+        "Company": "YogaLife Innovations",
+        "Price": 29.99,
+        "Type": "Sports & Fitness",
+        "ManufacturingProcess": "Low-energy consumption",
+        "Transportation": "Shipped locally",
+        "EnergyEfficiency": false,
+        "WaterUsage": "Low",
+        "CarbonEmissions": "Low"
+    },
+    {
+        "Name": "Solar-Powered Garden Lights",
+        "Description": "Garden lights powered by solar energy, adding a touch of eco-friendliness to your outdoor space.",
+        "RawMaterials": [
+            {
+                "Material": "Solar Panels",
+                "Percentage": "50%"
+            },
+            {
+                "Material": "Metal Casing",
+                "Percentage": "50%"
+            }
+        ],
+        "Company": "GreenGlow Gardens",
+        "Price": 17.99,
+        "Type": "Home & Outdoor",
+        "ManufacturingProcess": "Low-energy consumption",
+        "Transportation": "Shipped locally",
+        "EnergyEfficiency": true,
+        "WaterUsage": "Low",
+        "CarbonEmissions": "High"
+    },
+    {
+        "Name": "Organic Baby Onesies",
+        "Description": "Cute and soft onesies for babies made from organic cotton, gentle on delicate skin.",
+        "RawMaterials": [
+            {
+                "Material": "Organic Cotton",
+                "Percentage": "100%"
+            }
+        ],
+        "Company": "TinyEarth Babies",
+        "Price": 12.99,
+        "Type": "Baby & Kids",
+        "ManufacturingProcess": "Low-energy consumption",
+        "Transportation": "Shipped locally",
+        "EnergyEfficiency": true,
+        "WaterUsage": "High",
+        "CarbonEmissions": "Low"
+    },
+    {
+        "Name": "Biodegradable Bamboo Cutlery Set",
+        "Description": "Disposable cutlery set made from biodegradable bamboo, perfect for picnics and events.",
+        "RawMaterials": [
+            {
+                "Material": "Bamboo",
+                "Percentage": "100%"
+            }
+        ],
+        "Company": "EcoBamboo Utensils",
+        "Price": 8.99,
+        "Type": "Kitchen & Dining",
+        "ManufacturingProcess": "Low-energy consumption",
+        "Transportation": "Shipped locally",
+        "EnergyEfficiency": true,
+        "WaterUsage": "Low",
+        "CarbonEmissions": "Low"
+    },
+    {
+        "Name": "Solar-Powered Backpack",
+        "Description": "A backpack with built-in solar panels to charge your devices while on the move.",
+        "RawMaterials": [
+            {
+                "Material": "Solar Panels",
+                "Percentage": "40%"
+            },
+            {
+                "Material": "Nylon Fabric",
+                "Percentage": "60%"
+            }
+        ],
+        "Company": "SunHike Gear",
+        "Price": 59.99,
+        "Type": "Bags & Luggage",
+        "ManufacturingProcess": "Low-energy consumption",
+        "Transportation": "Shipped locally",
+        "EnergyEfficiency": true,
+        "WaterUsage": "Low",
+        "CarbonEmissions": "High"
+    },
+    {
+        "Name": "Organic Herbal Tea Assortment",
+        "Description": "A variety of herbal teas made from organic herbs, promoting well-being and sustainability.",
+        "RawMaterials": [
+            {
+                "Material": "Organic Herbs",
+                "Percentage": "100%"
+            }
+        ],
+        "Company": "Harmony Teas",
+        "Price": 14.99,
+        "Type": "Food & Beverage",
+        "ManufacturingProcess": "Low-energy consumption",
+        "Transportation": "Shipped locally",
+        "EnergyEfficiency": true,
+        "WaterUsage": "Low",
+        "CarbonEmissions": "Low"
+    },
+    {
+        "Name": "Recycled Plastic Garden Bench",
+        "Description": "A garden bench made from recycled plastic, durable and eco-friendly.",
+        "RawMaterials": [
+            {
+                "Material": "Recycled Plastic",
+                "Percentage": "80%"
+            },
+            {
+                "Material": "Metal Frame",
+                "Percentage": "20%"
+            }
+        ],
+        "Company": "EcoGarden Furnishings",
+        "Price": 129.99,
+        "Type": "Home & Outdoor",
+        "ManufacturingProcess": "High-energy consumption",
+        "Transportation": "Shipped globally",
+        "EnergyEfficiency": false,
+        "WaterUsage": "Low",
+        "CarbonEmissions": "High"
+    },
+    {
+        "Name": "Fair Trade Chocolate Bars",
+        "Description": "Delicious chocolate bars made from ethically sourced cocoa, supporting cocoa farmers.",
+        "RawMaterials": [
+            {
+                "Material": "Cocoa Beans",
+                "Percentage": "100%"
+            }
+        ],
+        "Company": "Cocoa Harmony",
+        "Price": 3.99,
+        "Type": "Food & Beverage",
+        "ManufacturingProcess": "Low-energy consumption",
+        "Transportation": "Shipped locally",
+        "EnergyEfficiency": true,
+        "WaterUsage": "Low",
+        "CarbonEmissions": "Low"
+    },
+    {
+        "Name": "Reusable Stainless Steel Straw Set",
+        "Description": "A set of stainless steel straws with a cleaning brush, reducing plastic straw waste.",
+        "RawMaterials": [
+            {
+                "Material": "Stainless Steel",
+                "Percentage": "90%"
+            },
+            {
+                "Material": "Cleaning Brush",
+                "Percentage": "10%"
+            }
+        ],
+        "Company": "Stainless Sip",
+        "Price": 6.99,
+        "Type": "Kitchen & Dining",
+        "ManufacturingProcess": "Low-energy consumption",
+        "Transportation": "Shipped locally",
+        "EnergyEfficiency": true,
+        "WaterUsage": "Low",
+        "CarbonEmissions": "High"
+    }
+]

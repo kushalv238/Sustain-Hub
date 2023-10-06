@@ -17,6 +17,20 @@ const getAllProducts = asyncHandler(async (req, res) => {
     res.json(Products);
 });
 
+// @desc Get score of the product
+// @route GET /products
+// @access Private
+const getProdScore = asyncHandler(async (req, res) => {
+    const Products = await Product.find()
+    // lean gives only the data as a JSON and eliminates any excess functionality
+
+    if(!Products?.length) {
+        return res.status(400).json({ message: 'No Products found'} )
+    }
+
+    res.json(Products);
+});
+
 
 
 // @desc Post a new product
