@@ -238,5 +238,11 @@
         "name": "Nylon Fabric",
         "source": "Global",
         "ecoFriendly": false
+    },
+    {
+        "id": 41,
+        "name": "Cleaning Brush",
+        "source": "Local",
+        "ecoFriendly": false
     }
 ]
