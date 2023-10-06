@@ -1,0 +1,82 @@
+[
+    {
+        "Name": "Recycled Paper Notebook",
+        "Description": "A notebook made from 100% recycled paper, perfect for eco-conscious note-taking.",
+        "RawMaterials": ["Recycled Paper"],
+        "Company": "Green Eco Products Inc.",
+        "Price": 12.99,
+        "Type": "Stationery"
+    },
+    {
+        "Name": "Organic Cotton T-Shirt",
+        "Description": "A comfortable t-shirt made from organic cotton, free from harmful chemicals.",
+        "RawMaterials": ["Organic Cotton"],
+        "Company": "Pure Wearables Co.",
+        "Price": 19.99,
+        "Type": "Apparel"
+    },
+    {
+        "Name": "Bamboo Toothbrush",
+        "Description": "An eco-friendly toothbrush made from sustainable bamboo, reducing plastic waste.",
+        "RawMaterials": ["Bamboo"],
+        "Company": "GreenSmiles Ltd.",
+        "Price": 4.49,
+        "Type": "Personal Care"
+    },
+    {
+        "Name": "Solar-Powered LED Lamp",
+        "Description": "A portable lamp powered by solar energy, great for outdoor adventures and emergencies.",
+        "RawMaterials": ["Solar Panels", "Plastic Housing"],
+        "Company": "Sunshine Tech Solutions",
+        "Price": 29.99,
+        "Type": "Home & Outdoor"
+    },
+    {
+        "Name": "Recycled Glass Water Bottle",
+        "Description": "A reusable water bottle made from recycled glass, reducing single-use plastic waste.",
+        "RawMaterials": ["Recycled Glass", "Metal Lid"],
+        "Company": "EcoHydrate Inc.",
+        "Price": 14.95,
+        "Type": "Kitchen & Dining"
+    },
+    {
+        "Name": "Upcycled Denim Jeans",
+        "Description": "Fashionable jeans made from upcycled denim, giving old denim a new life.",
+        "RawMaterials": ["Upcycled Denim"],
+        "Company": "Revive Denim Co.",
+        "Price": 49.99,
+        "Type": "Apparel"
+    },
+    {
+        "Name": "Organic Fruit Basket",
+        "Description": "A fresh fruit basket with organically grown fruits, free from pesticides.",
+        "RawMaterials": ["Organic Fruits", "Wicker Basket"],
+        "Company": "Green Harvest Farms",
+        "Price": 34.99,
+        "Type": "Food & Beverage"
+    },
+    {
+        "Name": "Biodegradable Cleaning Wipes",
+        "Description": "Cleaning wipes made from biodegradable materials, eco-friendly and safe for the environment.",
+        "RawMaterials": ["Biodegradable Fabric", "Natural Cleaning Solution"],
+        "Company": "Clean Earth Products",
+        "Price": 7.99,
+        "Type": "Household Supplies"
+    },
+    {
+        "Name": "Sustainable Wooden Chair",
+        "Description": "A stylish and sturdy wooden chair made from sustainably sourced wood.",
+        "RawMaterials": ["Sustainably Sourced Wood"],
+        "Company": "Woodcraft Creations",
+        "Price": 79.99,
+        "Type": "Furniture"
+    },
+    {
+        "Name": "Solar-Powered Smartphone Charger",
+        "Description": "A portable smartphone charger powered by solar energy, great for on-the-go charging.",
+        "RawMaterials": ["Solar Panels", "Plastic Casing"],
+        "Company": "SunCharge Technologies",
+        "Price": 24.99,
+        "Type": "Electronics"
+    }
+]
