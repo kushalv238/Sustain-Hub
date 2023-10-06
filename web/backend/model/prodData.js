@@ -10,8 +10,14 @@ const productSchema = new mongoose.Schema({
         required: true
     },
     RawMaterials: [{
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'rawMaterial'
+        Material: {
+            type: String,
+            required: true
+        },
+        Percentage: {
+            type: String,
+            required: true
+        }
     }],
     Company: {
         type: String
@@ -40,4 +46,4 @@ const productSchema = new mongoose.Schema({
     },
 });
 
-module.exports = mongoose.model('Products', productSchema);
+module.exports = mongoose.model('prodData', productSchema);

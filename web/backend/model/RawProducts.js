@@ -1,19 +1,19 @@
 const mongoose = require('mongoose');
 
 const RawProducts = new mongoose.Schema({
-    name: {
-        type: String,
-        required: true
-    },
-    source: {
-        type: String,
-        required: true
-    },
-    description: {
-        type: String,
+    Id: {
+        type: Number,
         required: false
     },
-    ecoFriendly: {
+    Name: {
+        type: String,
+        required: true
+    },
+    Source: {
+        type: String,
+        required: true
+    },
+    EcoFriendly: {
         type: Boolean,
         required: true
     },

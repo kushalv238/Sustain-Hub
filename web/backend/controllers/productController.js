@@ -1,14 +1,12 @@
-const Product = require('../model/Product');
+const Product = require('../model/prodData');
 const asyncHandler = require('express-async-handler');
 const bcrypt = require('bcrypt');
-
 
 // @desc Get all the products
 // @route GET /products
 // @access Private
 const getAllProducts = asyncHandler(async (req, res) => {
     const Products = await Product.find()
-    // lean gives only the data as a JSON and eliminates any excess functionality
 
     if(!Products?.length) {
         return res.status(400).json({ message: 'No Products found'} )
@@ -16,40 +14,24 @@ const getAllProducts = asyncHandler(async (req, res) => {
 
     res.json(Products);
 });
-
-// @desc Get score of the product
-// @route GET /products
-// @access Private
-const getProdScore = asyncHandler(async (req, res) => {
-    const Products = await Product.find()
-    // lean gives only the data as a JSON and eliminates any excess functionality
-
-    if(!Products?.length) {
-        return res.status(400).json({ message: 'No Products found'} )
-    }
-
-    res.json(Products);
-});
-
 
 
 // @desc Post a new product
 // @route POST /products
 // @access Private
 const createAProduct = asyncHandler(async (req, res) => {
-    const { title, cost, description, image, visits=0, link } = req.body;
+    const { Name, Description, RawMaterials, Company, Price, Type, ManufacturingProcess, Transportation, EnergyEfficiency, CarbonEmissions } = req.body;
 
-    const getDuplicateProduct = await Product.find({ title }).lean().exec();
+    const getDuplicateProduct = await Product.find({ Name }).lean().exec();
     if(getDuplicateProduct?.length) {
-        return res.status(409).json({ message: `Duplicate product name for ${title}` });
+        return res.status(409).json({ message: `Duplicate product name for ${Name}` });
     }
 
-    const newProduct = { title, cost, description, image, visits, link };
-
+    const newProduct = { Name, Description, RawMaterials, Company, Price, Type, ManufacturingProcess, Transportation, EnergyEfficiency, CarbonEmissions };
     const addedProduct = await Product.create(newProduct)
 
     if(addedProduct) {
-        res.status(200).json({ message: `${title} created` })
+        res.status(200).json({ message: `${Name} created` })
     } else {
         res.status(400).json({ message: "Invalid product data recoreded." })
     }
@@ -83,3 +65,4 @@ const updateProduct = asyncHandler(async (req, res) => {
 
 
 module.exports = { getAllProducts, createAProduct, updateProduct };
+

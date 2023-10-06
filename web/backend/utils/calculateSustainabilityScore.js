@@ -1,6 +1,5 @@
 const RawProduct = require('./../model/RawProducts');
-const asyncHandler = require('express-async-handler');
-
+const percentageToNumber = require('./precToNum')
 
 const weights = {
     manufacturingProcess: 0.2,
@@ -10,28 +9,29 @@ const weights = {
     carbonEmissions: 0.1,
 };
 
-const calculateSustainabilityScore = asyncHandler(async (product) => {
+const calculateSustainabilityScore = async (product) => {
     let score = 0;
 
-    for (const material of product.rawMaterials) {
-        const prod = await RawProduct.find({ name: material.name })
-
+    for (const material of product.RawMaterials) {
+        const prod = await RawProduct.find({ Name: material.Material })
+        
         let materialScore = 0;
-        if (prod.source === "Local") {
-            materialScore += prod.ecoFriendly ? 3 : 1;
+        if (prod.Source === "Local") {
+            materialScore += prod.EcoFriendly ? 3 : 1;
         } else {
-            materialScore += prod.ecoFriendly ? 2 : 0;
+            materialScore += prod.EcoFriendly ? 2 : 0;
         }
-        score += (materialScore * material.percentage) / 100;
+        score += (materialScore * percentageToNumber(material.Percentage)) / 100;
     }
 
-    score += weights.manufacturingProcess * (product.manufacturingProcess === "Low-energy consumption" ? 3 : 1);
-    score += weights.transportation * (product.transportation === "Shipped locally" ? 2 : 1);
-    score += weights.energyEfficiency * (product.energyEfficiency ? 3 : 1);
-    score += weights.waterUsage * (product.waterUsage === "Low" ? 2 : 1);
-    score += weights.carbonEmissions * (product.carbonEmissions === "Low" ? 2 : 1);
+    score += weights.manufacturingProcess * (product.ManufacturingProcess === "Low-energy consumption" ? 3 : 1);
+    score += weights.transportation * (product.Transportation === "Shipped locally" ? 2 : 1);
+    score += weights.energyEfficiency * (product.EnergyEfficiency ? 3 : 1);
+    score += weights.waterUsage * (product.WaterUsage === "Low" ? 2 : 1);
+    score += weights.carbonEmissions * (product.CarbonEmissions === "Low" ? 2 : 1);
+
 
     return score;
-})
+}
 
 module.exports = calculateSustainabilityScore;
