@@ -1,143 +1,159 @@
 [
     {
       "id": 1,
-      "title": "The Importance of Sustainable Agriculture",
-      "date_created": "2023-10-15",
-      "author": "Emily Green",
-      "post": "Sustainable agriculture plays a crucial role in ensuring food security while minimizing environmental impact. In this blog post, we explore the practices and innovations that promote sustainable farming and protect our planet's resources."
+      "title": "Is the Demand for Sustainable & Eco-Friendly Products Rising?",
+      "author": "Karthikeya Burugula",
+      "post": "In this article, we will explore the remarkable phenomenon of the rise of sustainable and eco-friendly products. We will begin by examining the factors that have contributed to this trend, including the growing environmental awareness among consumers and their increasing demand for products that align with their values.",
+      "link":"https://medium.com/@accredian/is-the-demand-for-sustainable-eco-friendly-products-rising-9fcca58e1e74"
     },
     {
       "id": 2,
-      "title": "Protecting Endangered Species: Our Responsibility",
-      "date_created": "2023-09-28",
-      "author": "David Smith",
-      "post": "Biodiversity is under threat, and many species are on the brink of extinction. In this post, we discuss the urgent need to protect endangered species and the role each of us can play in preserving our planet's rich tapestry of life."
+      "title": "Sustainable Leather Sandals — A Step Towards Ethical Fashion",
+      "author": "James Williams",
+      "post": "There has been a rising concern for the environment and a trend toward sustainable living in recent years. With fast fashion and the textile industry is big polluters, many individuals are moving to more environmentally friendly alternatives. Sustainable leather sandals, for example, are not only fashionable but also environmentally responsible.",
+      "link":"https://medium.com/illumination/sustainable-leather-sandals-a-step-towards-ethical-fashion-a66f524c8153"
     },
     {
       "id": 3,
-      "title": "Clean Energy Revolution: A Path to a Greener Future",
-      "date_created": "2023-09-10",
-      "author": "Lisa Johnson",
-      "post": "The transition to clean energy sources is essential for mitigating climate change. This blog post explores the rapid growth of renewable energy and the potential it holds for creating a sustainable and greener future."
+      "title": "Sustainable Product Spotlight — Adidas Shoes made from Sea Plastic",
+      "author": "John Forfar",
+      "post": "In mid-2017 Adidas released 3 editions of their popular UltraBoost running shoes. All of the material used to make these great looking shoes was sourced from floating debris found in the ocean. This is a great example of a producer collaborating with the environmental organisation “Parley for the Oceans” to produce something improves our environment.",
+      "link":"https://medium.com/tradr/sustainable-product-spotlight-adidas-shoes-made-from-sea-plastic-803542e85c46"
     },
     {
       "id": 4,
       "title": "Reducing Plastic Waste: Small Steps, Big Impact",
       "date_created": "2023-08-20",
       "author": "Michael Brown",
-      "post": "Plastic pollution is a global issue, but individual actions can make a significant difference. Learn about simple yet effective ways to reduce plastic waste in your daily life and contribute to a cleaner environment."
+      "post": "Plastic pollution is a global issue, but individual actions can make a significant difference. Learn about simple yet effective ways to reduce plastic waste in your daily life and contribute to a cleaner environment.",
+      "link":""
     },
     {
       "id": 5,
       "title": "Forests: Earth's Lungs in Peril",
       "date_created": "2023-08-05",
       "author": "Sarah Carter",
-      "post": "Forests are vital for oxygen production and carbon sequestration. This post delves into the threats facing our forests, such as deforestation and wildfires, and the importance of preserving these vital ecosystems."
+      "post": "Forests are vital for oxygen production and carbon sequestration. This post delves into the threats facing our forests, such as deforestation and wildfires, and the importance of preserving these vital ecosystems.",
+      "link":""
     },
     {
       "id": 6,
       "title": "The Role of Oceans in Climate Regulation",
       "date_created": "2023-07-18",
       "author": "James Anderson",
-      "post": "Oceans are a critical part of the Earth's climate system. This blog post explores how oceans absorb and store carbon dioxide, and why their protection is crucial for climate regulation and marine life."
+      "post": "Oceans are a critical part of the Earth's climate system. This blog post explores how oceans absorb and store carbon dioxide, and why their protection is crucial for climate regulation and marine life.",
+      "link":""
     },
     {
       "id": 7,
       "title": "Eco-Friendly Transportation: Moving Toward a Greener Commute",
       "date_created": "2023-07-02",
       "author": "Olivia Lee",
-      "post": "Transportation is a major contributor to greenhouse gas emissions. Discover eco-friendly transportation options and how making sustainable choices in your daily commute can help combat climate change."
+      "post": "Transportation is a major contributor to greenhouse gas emissions. Discover eco-friendly transportation options and how making sustainable choices in your daily commute can help combat climate change.",
+      "link":""
     },
     {
       "id": 8,
       "title": "The Impact of Air Pollution on Public Health",
       "date_created": "2023-06-15",
       "author": "Daniel Adams",
-      "post": "Poor air quality poses significant health risks. This post discusses the health impacts of air pollution and the importance of clean air initiatives for the well-being of communities worldwide."
+      "post": "Poor air quality poses significant health risks. This post discusses the health impacts of air pollution and the importance of clean air initiatives for the well-being of communities worldwide.",
+      "link":""
     },
     {
       "id": 9,
       "title": "Renewing Our Connection with Nature",
       "date_created": "2023-05-28",
       "author": "Mia Robinson",
-      "post": "Reconnecting with nature is essential for our mental and emotional well-being. Explore the benefits of spending time outdoors and nurturing a deeper connection with the natural world."
+      "post": "Reconnecting with nature is essential for our mental and emotional well-being. Explore the benefits of spending time outdoors and nurturing a deeper connection with the natural world.",
+      "link":""
     },
     {
       "id": 10,
       "title": "Innovations in Green Building Design",
       "date_created": "2023-05-10",
       "author": "William Turner",
-      "post": "Green building design practices are revolutionizing the construction industry. Learn about sustainable building materials and techniques that reduce environmental impact while creating healthier living spaces."
+      "post": "Green building design practices are revolutionizing the construction industry. Learn about sustainable building materials and techniques that reduce environmental impact while creating healthier living spaces.",
+      "link":""
     },
     {
       "id": 11,
       "title": "Preserving Coral Reefs: Underwater Rainforests in Crisis",
       "date_created": "2023-04-25",
       "author": "Sophia Lewis",
-      "post": "Coral reefs are biodiverse ecosystems facing grave threats. Dive into the beauty of coral reefs, the dangers they confront, and the conservation efforts needed to protect these underwater wonders."
+      "post": "Coral reefs are biodiverse ecosystems facing grave threats. Dive into the beauty of coral reefs, the dangers they confront, and the conservation efforts needed to protect these underwater wonders.",
+      "link":""
     },
     {
       "id": 12,
       "title": "Food Waste Reduction: A Recipe for Sustainability",
       "date_created": "2023-04-08",
       "author": "Matthew White",
-      "post": "Food waste is a global issue with environmental and social consequences. Discover strategies to reduce food waste at home and in the food industry, and the positive impact it can have on our planet."
+      "post": "Food waste is a global issue with environmental and social consequences. Discover strategies to reduce food waste at home and in the food industry, and the positive impact it can have on our planet.",
+      "link":""
     },
     {
       "id": 13,
       "title": "Renewable Energy in Developing Nations",
       "date_created": "2023-03-20",
       "author": "Elena Martinez",
-      "post": "Access to clean energy is critical for development. Explore how renewable energy projects are transforming communities in developing nations, providing electricity and improving lives."
+      "post": "Access to clean energy is critical for development. Explore how renewable energy projects are transforming communities in developing nations, providing electricity and improving lives.",
+      "link":""
     },
     {
       "id": 14,
       "title": "Urban Green Spaces: Nurturing Biodiversity in Cities",
       "date_created": "2023-03-05",
       "author": "Liam Harris",
-      "post": "Urban green spaces are essential for promoting biodiversity and enhancing the quality of life in cities. Learn how cities around the world are creating and preserving these vital pockets of nature."
+      "post": "Urban green spaces are essential for promoting biodiversity and enhancing the quality of life in cities. Learn how cities around the world are creating and preserving these vital pockets of nature.",
+      "link":""
     },
     {
       "id": 15,
       "title": "The Threat of Single-Use Plastics to Marine Ecosystems",
       "date_created": "2023-02-15",
       "author": "Ava Turner",
-      "post": "Single-use plastics have a devastating impact on marine ecosystems. This post explores the dangers of plastic pollution in our oceans and the urgent need to reduce our plastic consumption."
+      "post": "Single-use plastics have a devastating impact on marine ecosystems. This post explores the dangers of plastic pollution in our oceans and the urgent need to reduce our plastic consumption.",
+      "link":""
     },
     {
       "id": 16,
       "title": "The Power of Renewable Energy Storage Solutions",
       "date_created": "2023-02-01",
       "author": "Benjamin Foster",
-      "post": "Renewable energy storage technologies are crucial for a sustainable energy future. Discover the innovations in energy storage and their role in ensuring a reliable and clean energy supply."
+      "post": "Renewable energy storage technologies are crucial for a sustainable energy future. Discover the innovations in energy storage and their role in ensuring a reliable and clean energy supply.",
+      "link":""
     },
     {
       "id": 17,
       "title": "Conservation Heroes: Efforts to Save Endangered Species",
       "date_created": "2023-01-15",
       "author": "Lily Parker",
-      "post": "Conservationists worldwide are working tirelessly to protect endangered species. Learn about some inspiring conservation projects and the dedicated individuals making a difference in species survival."
+      "post": "Conservationists worldwide are working tirelessly to protect endangered species. Learn about some inspiring conservation projects and the dedicated individuals making a difference in species survival.",
+      "link":""
     },
     {
       "id": 18,
       "title": "Green Technology Trends: Shaping a Sustainable Tomorrow",
       "date_created": "2022-12-30",
       "author": "Robert Garcia",
-      "post": "Green technology innovations are driving sustainability across various industries. Explore the latest trends in eco-friendly technology and how they are shaping a more sustainable future."
+      "post": "Green technology innovations are driving sustainability across various industries. Explore the latest trends in eco-friendly technology and how they are shaping a more sustainable future.",
+      "link":""
     },
     {
       "id": 19,
       "title": "The Role of Community Gardens in Urban Sustainability",
       "date_created": "2022-12-10",
       "author": "Grace Turner",
-      "post": "Community gardens are thriving hubs of urban sustainability. This post discusses how these green spaces promote local food production, community bonding, and environmental awareness."
+      "post": "Community gardens are thriving hubs of urban sustainability. This post discusses how these green spaces promote local food production, community bonding, and environmental awareness.",
+      "link":""
     },
     {
       "id": 20,
       "title": "Reforestation Initiatives: Healing Our Planet One Tree at a Time",
       "date_created": "2022-11-25",
       "author": "Nathan Walker",
-      "post": "Reforestation projects are essential for combating deforestation and climate change. Dive into the world of reforestation initiatives and their impact on restoring Earth's vital forests."
+      "post": "Reforestation projects are essential for combating deforestation and climate change. Dive into the world of reforestation initiatives and their impact on restoring Earth's vital forests.",
+      "link":""
     }
-  ]
-  
+]
