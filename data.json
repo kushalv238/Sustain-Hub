@@ -78,5 +78,285 @@
         "Company": "SunCharge Technologies",
         "Price": 24.99,
         "Type": "Electronics"
+    },
+    {
+        "Name": "Recycled Plastic Backpack",
+        "Description": "A durable backpack made from recycled plastic bottles, reducing plastic waste in landfills.",
+        "RawMaterials": ["Recycled Plastic Bottles", "Nylon Straps"],
+        "Company": "EcoPack Gear",
+        "Price": 39.99,
+        "Type": "Bags & Luggage"
+    },
+    {
+        "Name": "Fair Trade Coffee Beans",
+        "Description": "Premium coffee beans sourced from fair trade cooperatives, supporting local farmers.",
+        "RawMaterials": ["Coffee Beans"],
+        "Company": "Ethical Brews Co.",
+        "Price": 9.99,
+        "Type": "Food & Beverage"
+    },
+    {
+        "Name": "Reusable Beeswax Food Wraps",
+        "Description": "Eco-friendly food wraps made from beeswax-infused fabric, replacing disposable plastic wraps.",
+        "RawMaterials": ["Beeswax", "Cotton Fabric"],
+        "Company": "BeeGreen Products",
+        "Price": 8.49,
+        "Type": "Kitchen & Dining"
+    },
+    {
+        "Name": "Electric Car Charging Station",
+        "Description": "A charging station for electric vehicles powered by renewable energy sources.",
+        "RawMaterials": ["Steel Structure", "Electric Components"],
+        "Company": "GreenCharge Systems",
+        "Price": 499.99,
+        "Type": "Automotive"
+    },
+    {
+        "Name": "Recycled Plastic Outdoor Furniture Set",
+        "Description": "Outdoor furniture set made from recycled plastic, durable and weather-resistant.",
+        "RawMaterials": ["Recycled Plastic", "Metal Frame"],
+        "Company": "EcoFurniture Designs",
+        "Price": 299.99,
+        "Type": "Furniture"
+    },
+    {
+        "Name": "Solar-Powered Water Purifier",
+        "Description": "A water purifier that uses solar energy to provide clean and safe drinking water.",
+        "RawMaterials": ["Solar Panels", "Water Filtration System"],
+        "Company": "CleanWater Tech",
+        "Price": 129.99,
+        "Type": "Home & Outdoor"
+    },
+    {
+        "Name": "Recycled Aluminum Water Bottle",
+        "Description": "A reusable water bottle made from recycled aluminum, reducing environmental impact.",
+        "RawMaterials": ["Recycled Aluminum", "Screw Cap"],
+        "Company": "AluGreen Products",
+        "Price": 19.99,
+        "Type": "Kitchen & Dining"
+    },
+    {
+        "Name": "Eco-Friendly Yoga Mat",
+        "Description": "A non-toxic yoga mat made from eco-friendly materials, perfect for yoga enthusiasts.",
+        "RawMaterials": ["Natural Rubber", "Eco-Friendly PVC"],
+        "Company": "YogaLife Innovations",
+        "Price": 29.99,
+        "Type": "Sports & Fitness"
+    },
+    {
+        "Name": "Solar-Powered Garden Lights",
+        "Description": "Garden lights powered by solar energy, adding a touch of eco-friendliness to your outdoor space.",
+        "RawMaterials": ["Solar Panels", "Metal Casing"],
+        "Company": "GreenGlow Gardens",
+        "Price": 17.99,
+        "Type": "Home & Outdoor"
+    },
+    {
+        "Name": "Organic Baby Onesies",
+        "Description": "Cute and soft onesies for babies made from organic cotton, gentle on delicate skin.",
+        "RawMaterials": ["Organic Cotton"],
+        "Company": "TinyEarth Babies",
+        "Price": 12.99,
+        "Type": "Baby & Kids"
+    },
+    {
+        "Name": "Biodegradable Bamboo Cutlery Set",
+        "Description": "Disposable cutlery set made from biodegradable bamboo, perfect for picnics and events.",
+        "RawMaterials": ["Bamboo"],
+        "Company": "EcoBamboo Utensils",
+        "Price": 8.99,
+        "Type": "Kitchen & Dining"
+    },
+    {
+        "Name": "Solar-Powered Backpack",
+        "Description": "A backpack with built-in solar panels to charge your devices while on the move.",
+        "RawMaterials": ["Solar Panels", "Nylon Fabric"],
+        "Company": "SunHike Gear",
+        "Price": 59.99,
+        "Type": "Bags & Luggage"
+    },
+    {
+        "Name": "Organic Herbal Tea Assortment",
+        "Description": "A variety of herbal teas made from organic herbs, promoting well-being and sustainability.",
+        "RawMaterials": ["Organic Herbs"],
+        "Company": "Harmony Teas",
+        "Price": 14.99,
+        "Type": "Food & Beverage"
+    },
+    {
+        "Name": "Recycled Plastic Garden Bench",
+        "Description": "A garden bench made from recycled plastic, durable and eco-friendly.",
+        "RawMaterials": ["Recycled Plastic", "Metal Frame"],
+        "Company": "EcoGarden Furnishings",
+        "Price": 129.99,
+        "Type": "Home & Outdoor"
+    },
+    {
+        "Name": "Fair Trade Chocolate Bars",
+        "Description": "Delicious chocolate bars made from ethically sourced cocoa, supporting cocoa farmers.",
+        "RawMaterials": ["Cocoa Beans"],
+        "Company": "Cocoa Harmony",
+        "Price": 3.99,
+        "Type": "Food & Beverage"
+    },
+    {
+        "Name": "Reusable Stainless Steel Straw Set",
+        "Description": "A set of stainless steel straws with a cleaning brush, reducing single-use plastic straw waste.",
+        "RawMaterials": ["Stainless Steel"],
+        "Company": "EcoStraws Co.",
+        "Price": 9.49,
+        "Type": "Kitchen & Dining"
+    },
+    {
+        "Name": "Solar-Powered Camping Lantern",
+        "Description": "A compact lantern powered by solar energy, perfect for camping and outdoor activities.",
+        "RawMaterials": ["Solar Panels", "Plastic Housing"],
+        "Company": "Adventure Solar Gear",
+        "Price": 19.99,
+        "Type": "Home & Outdoor"
+    },
+    {
+        "Name": "Recycled PET Yoga Mat",
+        "Description": "A yoga mat made from recycled PET bottles, eco-friendly and comfortable for workouts.",
+        "RawMaterials": ["Recycled PET", "EVA Foam"],
+        "Company": "EcoYoga Mats",
+        "Price": 24.99,
+        "Type": "Sports & Fitness"
+    },
+    {
+        "Name": "Organic Vegetable Seed Starter Kit",
+        "Description": "A kit with organic vegetable seeds and biodegradable pots, perfect for starting a garden.",
+        "RawMaterials": ["Organic Seeds", "Biodegradable Pots"],
+        "Company": "GreenThumb Gardens",
+        "Price": 12.99,
+        "Type": "Home & Garden"
+    },
+    {
+        "Name": "Recycled Cardboard Storage Boxes",
+        "Description": "Storage boxes made from recycled cardboard, eco-friendly and functional.",
+        "RawMaterials": ["Recycled Cardboard"],
+        "Company": "EcoBox Solutions",
+        "Price": 9.99,
+        "Type": "Home & Office"
+    },
+    {
+        "Name": "Fair Trade Organic Cotton Bed Sheets",
+        "Description": "Luxurious bed sheets made from fair trade organic cotton, promoting ethical practices.",
+        "RawMaterials": ["Organic Cotton"],
+        "Company": "EthicalBed Linens",
+        "Price": 49.99,
+        "Type": "Home & Bedding"
+    },
+    {
+        "Name": "Biodegradable Plant-Based Cutlery Set",
+        "Description": "Disposable cutlery set made from plant-based materials, compostable and eco-friendly.",
+        "RawMaterials": ["Plant-Based PLA"],
+        "Company": "EcoUtensils",
+        "Price": 10.99,
+        "Type": "Kitchen & Dining"
+    },
+    {
+        "Name": "Solar-Powered Backpacking Stove",
+        "Description": "A compact stove powered by solar energy, perfect for backpacking and camping trips.",
+        "RawMaterials": ["Solar Panels", "Aluminum Housing"],
+        "Company": "Backpacker Solar Cookware",
+        "Price": 39.99,
+        "Type": "Home & Outdoor"
+    },
+    {
+        "Name": "Recycled Plastic Picnic Table",
+        "Description": "A picnic table made from recycled plastic, sturdy and environmentally friendly.",
+        "RawMaterials": ["Recycled Plastic", "Metal Frame"],
+        "Company": "EcoPicnic Furniture",
+        "Price": 149.99,
+        "Type": "Home & Outdoor"
+    },
+    {
+        "Name": "Fair Trade Artisanal Soap Set",
+        "Description": "Handcrafted soap bars made by artisans from fair trade ingredients, promoting ethical practices.",
+        "RawMaterials": ["Natural Oils", "Essential Oils"],
+        "Company": "Artisan Soaps Co.",
+        "Price": 12.99,
+        "Type": "Personal Care"
+    },
+    {
+        "Name": "Reusable Glass Drinking Straws",
+        "Description": "A set of glass drinking straws with a cleaning brush, reducing plastic straw waste.",
+        "RawMaterials": ["Glass"],
+        "Company": "EcoGlass Straws",
+        "Price": 12.49,
+        "Type": "Kitchen & Dining"
+    },
+    {
+        "Name": "Solar-Powered Bike Lights",
+        "Description": "Bike lights powered by solar energy, enhancing safety and sustainability for cyclists.",
+        "RawMaterials": ["Solar Panels", "Plastic Housing"],
+        "Company": "CycleSolar Innovations",
+        "Price": 14.99,
+        "Type": "Sports & Outdoors"
+    },
+    {
+        "Name": "Recycled PET Backpack",
+        "Description": "A backpack made from recycled PET bottles, eco-friendly and suitable for daily use.",
+        "RawMaterials": ["Recycled PET", "Nylon Straps"],
+        "Company": "EcoCarry Gear",
+        "Price": 29.99,
+        "Type": "Bags & Luggage"
+    },
+    {
+        "Name": "Fair Trade Organic Honey",
+        "Description": "Pure organic honey sourced from fair trade cooperatives, supporting beekeepers.",
+        "RawMaterials": ["Organic Honey"],
+        "Company": "HoneyHarvest Co.",
+        "Price": 8.99,
+        "Type": "Food & Beverage"
+    },
+    {
+        "Name": "Compostable Bamboo Dinnerware Set",
+        "Description": "Disposable dinnerware set made from compostable bamboo, perfect for events and gatherings.",
+        "RawMaterials": ["Bamboo"],
+        "Company": "EcoDinnerware",
+        "Price": 16.99,
+        "Type": "Kitchen & Dining"
+    },
+    {
+        "Name": "Solar-Powered Backpacking Water Purifier",
+        "Description": "A portable water purifier powered by solar energy, ideal for backpacking and outdoor adventures.",
+        "RawMaterials": ["Solar Panels", "Water Filtration System"],
+        "Company": "Backpacker Solar Water",
+        "Price": 49.99,
+        "Type": "Sports & Outdoors"
+    },
+    {
+        "Name": "Recycled Aluminum Laptop Stand",
+        "Description": "A laptop stand made from recycled aluminum, adjustable and eco-friendly.",
+        "RawMaterials": ["Recycled Aluminum"],
+        "Company": "EcoTech Stands",
+        "Price": 34.99,
+        "Type": "Electronics Accessories"
+    },
+    {
+        "Name": "Organic Bamboo Bedding Set",
+        "Description": "Luxurious bedding set made from organic bamboo, promoting sustainability and comfort.",
+        "RawMaterials": ["Organic Bamboo"],
+        "Company": "BambooBliss Beddings",
+        "Price": 79.99,
+        "Type": "Home & Bedding"
+    },
+    {
+        "Name": "Biodegradable Plant-Based Trash Bags",
+        "Description": "Trash bags made from biodegradable plant-based materials, reducing plastic pollution.",
+        "RawMaterials": ["Plant-Based PLA"],
+        "Company": "EcoBags",
+        "Price": 9.99,
+        "Type": "Home & Office"
+    },
+    {
+        "Name": "Solar-Powered Outdoor Shower",
+        "Description": "An outdoor shower powered by solar energy, perfect for camping and beach trips.",
+        "RawMaterials": ["Solar Panels", "Plastic Shower Head"],
+        "Company": "SunSplash Showers",
+        "Price": 69.99,
+        "Type": "Home & Outdoor"
     }
 ]
