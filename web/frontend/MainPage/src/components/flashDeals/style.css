@@ -1,0 +1,14 @@
+.flash {
+  background: #f6f9fc;
+  padding: 50px 0;
+}
+
+.slick-slide {
+  min-height: 25rem;
+}
+
+.img > img {
+  width: 100%;
+  max-height: 15rem;
+  min-height: 15rem;
+}

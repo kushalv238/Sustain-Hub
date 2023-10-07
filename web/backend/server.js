@@ -13,6 +13,8 @@ const errorHandler = require('./middleware/errorHandler');
 const corsOptions = require('./config/corsOptions');
 const connectDB = require('./config/dbConn');
 
+const bodyParser = require('body-parser');
+
 const User = require('./model/User');
 
 const PORT = process.env.PORT || 3500;
@@ -21,6 +23,7 @@ connectDB();
 
 //built-in middleware
 app.use(express.json())
+app.use(bodyParser.json());
 app.use('/', express.static(path.join(__dirname, 'public')));
 
 //3rd party middleware
