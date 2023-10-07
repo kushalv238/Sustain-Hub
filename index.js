@@ -8,7 +8,9 @@ const PORT = process.env.PORT || 3000;
 app.use(bodyParser.json());
 
 // Routes
+const productRoutes = require('./src/routes/products');
 const authRoutes = require('./src/routes/auth');
+app.use('/api', productRoutes);
 app.use('/seller', authRoutes);
 
 // Connect to MongoDB
