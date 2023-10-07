@@ -1,6 +1,8 @@
 import React from 'react'
 import './Navbar.css'
 
+import { Link } from 'react-router-dom'
+
 function Navbar() {
   return (
     <div className="n-wrapper">
@@ -11,8 +13,9 @@ function Navbar() {
         <div className="n-right">
             <div className="n-list">
                 <ul>
-                
-                <li>Login</li>
+                <Link to='/auth/login/'>
+                  <li>Login</li>
+                </Link>
                 <li>Sign Up</li>
                 </ul>
             </div>

@@ -373,3 +373,53 @@ button {
 
   margin: 5rem 0;
 }
+
+.card {
+  height: 35rem !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
+
+.edu-card {
+  height: 15rem !important;
+}
+
+.blog-card {
+  height: 26rem !important;
+}
+
+.green-btn {
+  background-color: rgb(42, 209, 42) !important;
+  color: white !important;
+}
+
+.black-btn {
+  background-color: black !important;
+  color: white !important;
+}
+
+.buyBttn {
+  background-color: green;
+  color: white;
+  margin: auto;
+
+  padding: 0.8rem 1.6rem;
+
+  font-size: 1.2rem;
+  font-weight: 600;
+
+  border-radius: 0.2rem;
+
+  cursor: pointer;
+}
+
+.cart-total {
+  height: 12rem !important;
+}
+
+.Araish {
+  width: 12rem;
+}
+
+.a-name {
+  font-size: 2.5rem !important;
+}

@@ -5,10 +5,6 @@ const carbonFootprintsCalc = async (product) => {
     let count = 0;
     for (const material of product.RawMaterials) {
         const prod = (await RawProduct.find({ Name: material.Material }))[0]
-        
-        console.log(prod)
-        console.log(prod.CarbonFootprint)
-
         score += (prod.CarbonFootprint);
         count ++;
     }

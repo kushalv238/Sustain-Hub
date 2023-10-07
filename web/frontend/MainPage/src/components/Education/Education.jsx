@@ -13,7 +13,7 @@ const Education = () => {
       <div className="edu">
 
         <div className="youtube">
-          <div className="card video"> <a href="https://youtu.be/PEi2IU--ZyY?si=zK9NGFcCVdDbCSCU" target="_blank" >
+          <div className="card edu-card video"> <a href="https://youtu.be/PEi2IU--ZyY?si=zK9NGFcCVdDbCSCU" target="_blank" >
             <img src={Video2} className="v-image" alt="" />
           </a>
 
@@ -36,7 +36,7 @@ const Education = () => {
           <div className="views">41.3K subscribers</div>
         </div>
         <div className="youtube">
-          <div className="card video">
+          <div className="card edu-card video">
             <a href="https://www.youtube.com/watch?v=a3csa3vfbzc">
               <img src={Video} className="v-image" alt="" />
             </a>
@@ -61,7 +61,7 @@ const Education = () => {
         </div>
 
         <div className="youtube">
-          <div className="card video">
+          <div className="card edu-card video">
             <a href="https://www.youtube.com/watch?v=vP_VtAXpc2I">
               <img src={Video1} className="v-image" alt="" />
             </a>

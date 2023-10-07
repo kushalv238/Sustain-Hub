@@ -3,7 +3,7 @@ import { sendHttpReq, sendDataToServer } from "../Data"
 
 import axios from "axios"
 
-const FlashCardBox = ({ productItems, addToCart }) => {
+const FlashCardBox = ({ productItems, addToCart, redeem }) => {
     const [score, setScore] = useState({})
 
     // const getData = async () => {
@@ -71,7 +71,7 @@ const FlashCardBox = ({ productItems, addToCart }) => {
                         <i className='fa fa-star'></i>
                     </div>
                     <div className='price'>
-                        <h4>${productItems.Price}</h4>
+                        <h4>{redeem ? 'Gree Coin: '+productItems.RedeemPrice : '$'+productItems.Price}</h4>
                         {/* step : 3  
                      if hami le button ma click garryo bahne 
                     */}

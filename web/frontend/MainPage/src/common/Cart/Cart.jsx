@@ -1,10 +1,91 @@
 import React from "react"
 import "./style.css"
+import { useState } from "react";
+import { useEffect } from "react";
 
 const Cart = ({ CartItem, addToCart, decreaseQty, removeItem }) => {
   // Stpe: 7   calucate total of items
-  const totalPrice = CartItem.reduce((price, item) => price + item.qty * item.Price, 0)
+  const totalPrice = CartItem.reduce((price, item) => price + item.qty * item.Price, 0).toFixed(2)
 
+  const [user, setUser] = useState({});
+
+  useEffect(() => {
+  }, [user])
+  
+  useEffect(() => {
+    if (!localStorage.getItem("username")) {
+      window.location.href = "http://localhost:3001";
+    } else {
+      setUser(JSON.parse(localStorage.getItem("username")))
+    }
+  }, []);
+
+  const handleBuy = async () => {
+    let susScore = 0;
+    let carbonFP = 0;
+    let count = 0;
+
+    // Use map to create an array of promises for fetch operations
+    const fetchPromises = CartItem.map(async (item) => {
+      try {
+        const response = await fetch(
+          `http://localhost:3500/prodScore?Name=${item.Name}`,
+          {
+            method: "GET",
+          }
+        );
+
+        if (response.ok) {
+          const data = await response.json();
+          susScore += data.sustainabilityScore;
+          carbonFP += data.carbonFootprintsScore;
+
+          count ++;
+        } else {
+          console.error(
+            `Error fetching product info for ${item.Name}. Status: ${response.status}`
+          );
+        }
+      } catch (error) {
+        console.error(`Error fetching product info for ${item.Name}:`, error);
+      }
+    });
+
+    // Wait for all fetch operations to complete before continuing
+    await Promise.all(fetchPromises);
+
+    // Now you can use susScore and carbonFP as needed
+    console.log("Total Sustainability Score:", susScore);
+    console.log("Total Carbon Footprint:", carbonFP);
+
+    const updatedUserInfo = {
+      carbonFootprint: parseFloat((user[0].carbonFootprint + carbonFP)/(count+1)*100).toFixed(2),
+      sustainbilityScore: parseFloat((user[0].sustainbilityScore + susScore)/(count+1)).toFixed(2),
+      email: user[0].email,
+      firstName: user[0].firstName,
+      username: user[0].username,
+    };
+
+    // Send a PATCH request to update user information
+    try {
+      const response = await fetch("http://localhost:3500/user", {
+        method: "PATCH",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(updatedUserInfo),
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        console.log(data.message); // Log the response from the server
+      } else {
+        console.error("Error updating user information.");
+      }
+    } catch (error) {
+      console.error("Error updating user information:", error);
+    }
+  };
   // prodcut qty total
   return (
     <>
@@ -60,8 +141,9 @@ const Cart = ({ CartItem, addToCart, decreaseQty, removeItem }) => {
             <h2>Cart Summary</h2>
             <div className=' d_flex'>
               <h4>Total Price :</h4>
-              <h3>${totalPrice}.00</h3>
+              <h3>${totalPrice}</h3>
             </div>
+            <button onClick={handleBuy} className="buyBttn">Buy</button>
           </div>
         </div>
       </section>

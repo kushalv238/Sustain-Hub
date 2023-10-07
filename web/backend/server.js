@@ -34,14 +34,15 @@ app.use(cors(corsOptions))
 app.use(logger)
 
 //router
-const productRoutes = require('./src/routes/products');
-const authRoutes = require('./src/routes/auth');
+const productRoutes = require('./routes/products');
+const authRoutes = require('./routes/auth');
 app.use('/api', productRoutes);
 app.use('/seller', authRoutes);
 app.use('/', require('./routes/root'));
 app.use('/products', require('./routes/productRoutes'));
 app.use('/prodScore', require('./routes/productScoreRoutes'));
 app.use('/addRaw', require('./routes/rawDataRoutes'));
+app.use('/user', require('./routes/getUser'));
 
 //Register
 app.post('/auth/register', async (req, res) => {
@@ -53,6 +54,7 @@ app.post('/auth/register', async (req, res) => {
         res.status(201).json({ message: 'Registration Successful' });
     }
     catch (error) {
+        console.error(error)
         res.status(500).json({ error: 'Registration failed' });
     }
 })
