@@ -1,0 +1,93 @@
+.Araish{
+    z-index: 10;
+}
+
+.about{
+    height: 28rem;
+    width: 20rem;
+    align-items: center;
+    text-align: center;
+}
+
+.a-name{
+    position: relative;
+    top: 2rem;
+    color: #04c783;
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.a-short{
+    position: relative;
+    top: 2.5rem;
+  
+
+color: var(--color-blue-800, #2B3A55);
+text-align: center;
+/* Typography/Light/16 */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 27px; /* 168.75% */
+
+}
+
+.a-short hr{
+    margin-top: 2rem;
+    width: 20rem;
+    border: 1px solid #47ffbe;
+
+}
+
+.social-medias{
+    
+    gap: 1rem;
+    position: relative;
+    display: flex;
+    top: 3.5rem;
+    
+}
+
+.social-medias svg{
+    width: 35px;
+    height: 30px;
+}
+
+.a-portfolio{
+   
+    position: relative;
+    top: 4rem;
+    display: flex;
+padding: 16px 24px;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+border-radius: 6px;
+background: #47ffbe;
+color: #2B3A55;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 12px; /* 75% */
+}
+
+
+
+
+
+.Useracc{
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+    display: flex;
+}
+.title-new{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

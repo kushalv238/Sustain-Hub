@@ -8,7 +8,8 @@ const carbonFootprintsCalc = require('./../utils/carbonFootprintsCalc');
 // @route GET /prodScore
 // @access Private
 const getProdScore = asyncHandler(async (req, res) => {
-    const { Name } = req.body;
+    console.log(req.query)
+    const { Name } = req.query;
     if (!Name) {
         return res.status(400).json({ message: 'Product Name required' })
     }

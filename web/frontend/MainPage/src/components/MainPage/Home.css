@@ -1,0 +1,73 @@
+.homeSlide h1 {
+  font-size: 45px;
+  line-height: 55px;
+  margin: 50px 0 20px 0;
+}
+.homeSlide p {
+  margin: 20px 0;
+}
+.homeSlide ul {
+  position: absolute;
+  bottom: 20px;
+}
+.homeSlide ul li {
+  border: 2px solid #b8b7b7;
+  border-radius: 50%;
+  padding: 10px;
+}
+.homeSlide ul li button {
+  background: transparent !important;
+  color: transparent !important;
+}
+.homeSlide ul li button::before {
+  font-size: 15px !important;
+  color: #0f3460;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  margin: auto;
+}
+
+.main{
+  background-color: #08412f;
+  padding-left: 5rem;
+  display: flex;
+  padding-right: 5rem;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding-top: 0;
+}
+
+.text{
+  color: #fff;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Inter;
+font-size: 95px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.hero_img{
+  scale: 1.3;
+}
+
+.blur{
+  background:#D30202;
+
+  border-radius: 50%;
+  filter: blur(130px);
+
+
+
+}
+
+.text2{
+  color: #31C697;
+}
+
+.hero_img2{
+  scale: 0.5;
+  display: flex;
+  position: absolute;
+}
