@@ -34,7 +34,7 @@ class OnbordingTwoScreen extends StatelessWidget {
                         onTapSkip(context);
                       })
                 ]),
-            body: Container(
+            body: Container( 
                 width: size.width,
                 height: size.height,
                 decoration: BoxDecoration(
