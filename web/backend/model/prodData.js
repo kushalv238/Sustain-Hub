@@ -44,6 +44,9 @@ const productSchema = new mongoose.Schema({
     CarbonEmissions: {
         type: String
     },
+    imgLink: {
+        type: String
+    },
 });
 
 module.exports = mongoose.model('prodData', productSchema);
