@@ -13,6 +13,8 @@ const errorHandler = require('./middleware/errorHandler');
 const corsOptions = require('./config/corsOptions');
 const connectDB = require('./config/dbConn');
 
+const bodyParser = require('body-parser');
+
 const User = require('./model/User');
 
 const PORT = process.env.PORT || 3500;
@@ -21,6 +23,7 @@ connectDB();
 
 //built-in middleware
 app.use(express.json())
+app.use(bodyParser.json());
 app.use('/', express.static(path.join(__dirname, 'public')));
 
 //3rd party middleware
@@ -31,6 +34,10 @@ app.use(cors(corsOptions))
 app.use(logger)
 
 //router
+const productRoutes = require('./src/routes/products');
+const authRoutes = require('./src/routes/auth');
+app.use('/api', productRoutes);
+app.use('/seller', authRoutes);
 app.use('/', require('./routes/root'));
 app.use('/products', require('./routes/productRoutes'));
 app.use('/prodScore', require('./routes/productScoreRoutes'));
