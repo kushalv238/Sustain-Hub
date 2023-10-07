@@ -34,6 +34,10 @@ app.use(cors(corsOptions))
 app.use(logger)
 
 //router
+const productRoutes = require('./src/routes/products');
+const authRoutes = require('./src/routes/auth');
+app.use('/api', productRoutes);
+app.use('/seller', authRoutes);
 app.use('/', require('./routes/root'));
 app.use('/products', require('./routes/productRoutes'));
 app.use('/prodScore', require('./routes/productScoreRoutes'));
