@@ -98,7 +98,7 @@ function App() {
         <Header CartItem={CartItem} />
         <Switch>
           <Route path='/' exact>
-            <Pages productItems={data} CartItem={data} addToCart={addToCart} shopItems={data} />
+            <Pages productItems={data} CartItem={CartItem} addToCart={addToCart} shopItems={data} />
           </Route>
           <Route path='/cart' exact>
             <Cart CartItem={CartItem} addToCart={addToCart} decreaseQty={decreaseQty} removeItem={removeItem} />
@@ -106,11 +106,14 @@ function App() {
           <Route path='/education' exact>
             <Education />
           </Route>
-          <Route path='/useracc' exact>
+          <Route path='/user' exact>
             <Useracc />
           </Route>
+          <Route path='/redeem' exact>
+            <Products prods={data} addToCart={addToCart} redeem={true} />
+          </Route>
           <Route path='/products' exact>
-            <Products prods={data} addToCart={addToCart} />
+            <Products prods={data} addToCart={addToCart} redeem={false} />
           </Route>
           <Route path='/products/:id' exact>
             <ProdInfo pords={data} />

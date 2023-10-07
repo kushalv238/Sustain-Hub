@@ -17,6 +17,10 @@ const RawProducts = new mongoose.Schema({
         type: Boolean,
         required: true
     },
+    CarbonFootprint: {
+        type: Number,
+        default: 0
+    },
 });
 
 module.exports = mongoose.model('RawProducts', RawProducts);

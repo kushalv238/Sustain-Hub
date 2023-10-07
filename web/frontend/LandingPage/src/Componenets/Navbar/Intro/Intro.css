@@ -1,69 +1,72 @@
-.hero_img{
+.hero_img {
     scale: 0.8;
     top: -5rem;
     padding-top: 0;
     position: absolute;
     z-index: 10;
-  
+
 }
-.top-text{
+
+.top-text {
     align-items: center;
     justify-content: center;
     color: #FFF;
-font-family: Secular One;
-font-size: 205px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-position: relative;
-display: flex;
-z-index: 20;
+    font-family: Secular One;
+    font-size: 205px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    display: flex;
+    z-index: 20;
 }
 
-.intro{
+.intro {
     padding-top: 6rem;
     padding-bottom: 14rem;
     overflow: hidden;
 }
 
-.blur{
-    background:#D30202;
+.blur {
+    background: #D30202;
     height: 5rem;
     border-radius: 50%;
     filter: blur(130px);
     display: flex;
-  top: -20rem;
-  position: relative;
+    top: -20rem;
+    position: relative;
 }
 
-.Rect{
+.Rect {
     top: -13rem;
     align-items: center;
     left: 30rem;
     position: relative;
     display: flex;
 }
-.side-text{
-  padding-left: 2.3rem;
-  color: #FFF;
-font-family: Inter;
-font-size: 30px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 45px */
-letter-spacing: 1.2px;
+
+.side-text {
+    padding-left: 2.3rem;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 45px */
+    letter-spacing: 1.2px;
 }
 
-.Rect1{
-display: flex;
-position: absolute;
-left: 0;
-top: 30rem;
-}
-
-.Rect3{
+.Rect1 {
     display: flex;
-position: absolute;
-top: 42.9rem;
+    position: absolute;
+    left: 0;
+    top: 30rem;
+}
+
+.Rect3 {
+    display: flex;
+    position: absolute;
+    top: 42.9rem;
 
 }

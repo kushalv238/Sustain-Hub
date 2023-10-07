@@ -24,10 +24,12 @@ const UserSchema = new mongoose.Schema({
     },
     sustainbilityScore: {
         type: Number,
+        required: false,
         default: 0
     },
     carbonFootprint: {
         type: Number,
+        required: false,
         default: 0
     }
 });
