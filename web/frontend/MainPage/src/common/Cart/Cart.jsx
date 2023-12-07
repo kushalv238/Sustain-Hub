@@ -59,8 +59,8 @@ const Cart = ({ CartItem, addToCart, decreaseQty, removeItem }) => {
     console.log("Total Carbon Footprint:", carbonFP);
 
     const updatedUserInfo = {
-      carbonFootprint: parseFloat((user[0].carbonFootprint + carbonFP)/(count+1)*100).toFixed(2),
-      sustainbilityScore: parseFloat((user[0].sustainbilityScore + susScore)/(count+1)).toFixed(2),
+      carbonFootprint: parseFloat((user[0].carbonFootprint + carbonFP)/(count+1)).toFixed(2),
+      sustainbilityScore: parseFloat((user[0].sustainbilityScore + susScore)/(count+1)*100).toFixed(2),
       email: user[0].email,
       firstName: user[0].firstName,
       username: user[0].username,
