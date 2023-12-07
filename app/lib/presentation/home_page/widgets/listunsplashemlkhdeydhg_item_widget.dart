@@ -71,7 +71,7 @@ class ListunsplashemlkhdeydhgItemWidget extends StatelessWidget {
                   text: TextSpan(
                     children: [
                       TextSpan(
-                        text: "Casual",
+                        text: "Eco-",
                         style: TextStyle(
                           color: ColorConstant.black900,
                           fontSize: getFontSize(
@@ -93,7 +93,7 @@ class ListunsplashemlkhdeydhgItemWidget extends StatelessWidget {
                         ),
                       ),
                       TextSpan(
-                        text: "Jeans Shoes",
+                        text: "brushes",
                         style: TextStyle(
                           color: ColorConstant.black900,
                           fontSize: getFontSize(

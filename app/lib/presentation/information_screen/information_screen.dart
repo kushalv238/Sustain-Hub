@@ -30,7 +30,7 @@ class InformationScreen extends StatelessWidget {
                 leading: AppbarImage(
                     height: getSize(40),
                     width: getSize(40),
-                    svgPath: ImageConstant.imgArrowleft,
+                    // svgPath: ImageConstant.imgArrowleft,
                     margin: getMargin(left: 16, top: 5, bottom: 5),
                     onTap: () {
                       onTapArrowleft4(context);
@@ -72,13 +72,13 @@ class InformationScreen extends StatelessWidget {
                                   ]))),
                       Align(
                           alignment: Alignment.center,
-                          child: Text("Anne Christion",
+                          child: Text("Dhruv Karia",
                               overflow: TextOverflow.ellipsis,
                               textAlign: TextAlign.left,
                               style: AppStyle.txtPoppinsMedium20)),
                       Align(
                           alignment: Alignment.center,
-                          child: Text("xyz@gmail.com",
+                          child: Text("dkaria1207@gmail.com",
                               overflow: TextOverflow.ellipsis,
                               textAlign: TextAlign.left,
                               style: AppStyle.txtPoppinsRegular127)),
@@ -91,7 +91,7 @@ class InformationScreen extends StatelessWidget {
                       CustomTextFormField(
                           focusNode: FocusNode(),
                           controller: groupController,
-                          hintText: "Anne Christion",
+                          hintText: "Anne Christ",
                           margin: getMargin(top: 10)),
                       Padding(
                           padding: getPadding(top: 17),
@@ -113,7 +113,7 @@ class InformationScreen extends StatelessWidget {
                       CustomTextFormField(
                           focusNode: FocusNode(),
                           controller: countryController,
-                          hintText: "New south Wales, Australia",
+                          hintText: "NCR, New Delhi",
                           margin: getMargin(top: 10)),
                       Padding(
                           padding: getPadding(top: 17),

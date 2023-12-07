@@ -77,7 +77,7 @@ class _ReviewsTabContainerScreenState extends State<ReviewsTabContainerScreen>
                                     child: Text("Positive",
                                         overflow: TextOverflow.ellipsis)),
                                 Tab(
-                                    child: Text("Negetive",
+                                    child: Text("Negative",
                                         overflow: TextOverflow.ellipsis))
                               ])),
                       Container(

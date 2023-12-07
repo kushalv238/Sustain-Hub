@@ -70,7 +70,7 @@ class Listunsplashzhh3wm2ko3sItemWidget extends StatelessWidget {
                   top: 12,
                 ),
                 child: Text(
-                  "Black Jacket",
+                  "Paper Notebooks",
                   overflow: TextOverflow.ellipsis,
                   textAlign: TextAlign.left,
                   style: AppStyle.txtPoppinsRegular14Black900,

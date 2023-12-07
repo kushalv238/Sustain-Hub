@@ -20,7 +20,7 @@ class ImageConstant {
   static String imgGroup1262 = 'assets/images/img_group1262.svg';
 
   static String imgUnsplashemlkhdeydhg235x164 =
-      'assets/images/img_unsplashemlkhdeydhg_235x164.png';
+      'assets/images/download_brush.jpeg';
 
   static String imgBag = 'assets/images/img_bag.svg';
 
@@ -209,7 +209,7 @@ class ImageConstant {
       'assets/images/img_notification_24x24.svg';
 
   static String imgUnsplashzhh3wm2ko3s192x1641 =
-      'assets/images/img_unsplashzhh3wm2ko3s_192x164_1.png';
+      'assets/images/download.jpeg';
 
   static String imgLink24x24 = 'assets/images/img_link_24x24.svg';
 
